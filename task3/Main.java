@@ -66,7 +66,7 @@ public class Main {
     public static void createReportJson(List<JSONObject> reportList) {
         JSONObject reportDict = new JSONObject();
         reportDict.put("reports", reportList);
-        String reportPath = Paths.get("task3\\").toAbsolutePath().resolve("report.json").toString();
+        String reportPath = Paths.get("").toAbsolutePath().resolve("report.json").toString();
         try (FileWriter fileWriter = new FileWriter(reportPath)) {
             fileWriter.write(reportDict.toJSONString());
             fileWriter.close();
