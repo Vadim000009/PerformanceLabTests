@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PerformanceLabTests:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PerformanceLabTests_jar</output-path>
+    <root id="archive" name="PerformanceLabTests.jar">
+      <element id="module-output" name="PerformanceLabTests" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/json-simple-1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
